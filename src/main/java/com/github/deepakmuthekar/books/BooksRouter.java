@@ -20,9 +20,9 @@ public class BooksRouter {
 	public RouterFunction<ServerResponse> booksRoute(BooksHandler handler) {
 		// @formatter:off
 		return RouterFunctions.route()
-				.GET("/books", 		  handler::list)
+				.GET("/books", 	      handler::list)
 				.GET("/books/{id}",   handler::get)
-				.POST("/books", 	  handler::create)
+				.POST("/books",       handler::create)
 				.DELETE("/books/{id}",handler::delete)
 				.build();
 		// @formatter:on
