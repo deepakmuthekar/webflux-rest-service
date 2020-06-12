@@ -6,5 +6,5 @@ Simple REST API project which exposes Endpoints to perfom CRUD operation on Book
 
 ### prerequisite
 
-Java 8+
-MongoDB up and running on your local machine
+1. Java 8+
+2. MongoDB up and running on your local machine
